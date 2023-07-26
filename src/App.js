@@ -3,11 +3,13 @@ import { useState } from "react";
 import './App.css';
 
 import Linkedin from "./artifacts/contracts/Linkedin.sol/Linkedin.json";
+import Navbar from "./Navbar";
 const ethers = require("ethers");
 
 const linkedContract = "0x62c4Bb7Ec10Ea78b2371914C4798B224DF81bbae";
 
 function App() {
+  
 
   const [user, setUser] = useState({
     name: "",
@@ -73,7 +75,9 @@ function App() {
 
 
   return (
+    
     <div className="App">
+      <Navbar />
       <div className="App-header">
       <div className="description">
           <h1>Registration</h1>
