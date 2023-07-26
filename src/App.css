@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  font-size: 24px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.description {
+  background-color: darkgray;
+  border-radius: 24px;
+  padding: 24px;
+
+  margin-bottom: 64px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+.form_input{
+  width: 60%;
+}
+
+.custom-buttons button {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  margin-right: 16px;
+  border-radius: 16px;
+}
